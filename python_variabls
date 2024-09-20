@@ -1,0 +1,7 @@
+Name='Govil K Gowda'   #string
+age=18  #int
+is_student=True  #bool
+
+print(Name)
+print(age)
+print(is_student)
