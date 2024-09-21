@@ -1,0 +1,6 @@
+name='govil'
+age=18
+
+print(f"Hi i am   {name}  and i am  {age}  years old")
+
+print('Hi i am' + name + 'and i am' + str(age) + 'years old')
