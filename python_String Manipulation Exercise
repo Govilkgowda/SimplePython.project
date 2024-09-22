@@ -1,0 +1,12 @@
+sentence_1=input('Give me a sentence:  ')
+
+print(sentence_1.upper())
+
+
+sentence_2=input('Give me a sentence:  ')
+
+print(sentence_2.lower())
+
+print(sentence_1.replace(' ','_'))
+
+print(sentence_2.strip())
