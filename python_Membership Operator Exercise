@@ -1,0 +1,15 @@
+sentence=input('write a sentence: ')
+
+print('a' in sentence)  #true
+
+print('g' not in sentence) #true
+
+print('g'  in sentence) #false
+
+print('a' in sentence and 'g' not in sentence ) #true
+print('a' in sentence and 'g'  in sentence )  #false
+
+print('a' in sentence or 'g'  in sentence ) #true
+
+print('a' not in sentence or 'g'  in sentence ) #false
+print(not('a' in sentence)) #false
