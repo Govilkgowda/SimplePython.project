@@ -1,0 +1,15 @@
+list=['milk','butter','coffee','suger','salt']
+
+print(list)
+
+list.append('egg')
+print(list)
+
+list.insert(1,'good day')
+print(list)
+
+list.remove('butter')
+print(list)
+
+list.pop(0)
+print(list)
