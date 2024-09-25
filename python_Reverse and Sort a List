@@ -1,0 +1,9 @@
+numbers=[25,65,5,566564,56,89,465]
+
+sorted_number=sorted(numbers)
+
+print(sorted_number)
+
+sorted_number.reverse()
+
+print(sorted_number)
