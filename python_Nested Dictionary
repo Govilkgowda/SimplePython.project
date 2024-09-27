@@ -1,0 +1,14 @@
+friends = {
+    "John": {
+        "name": "John",
+        "favorite_subject": "Mathematics",
+        "favorite_food": "Pizza"
+    },
+    "Emily": {
+        "name": "Emily",
+        "favorite_subject": "Biology",
+        "favorite_food": "Sushi"
+    }
+}
+
+print(f"John's favorite food is: {friends['John']['favorite_food']}")
