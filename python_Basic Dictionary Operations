@@ -1,0 +1,26 @@
+karnataka_cities = {
+    "Bengaluru": "Bisi Bele Bath",
+    "Mysuru": "Mysore Pak",
+    "Mangaluru": "Neer Dosa",
+    "Udupi": "Udupi Sambar",
+    "Davangere": "Benne Dose"
+}
+
+print(karnataka_cities)
+
+karnataka_cities['hubballi']='Girmit'
+
+print(karnataka_cities)
+
+print(len(karnataka_cities))
+
+karnataka_cities['Bengaluru']='Masala dose'
+
+print(karnataka_cities) 
+
+karnataka_cities.pop('Davangere')
+print(karnataka_cities)
+
+print(karnataka_cities.keys())
+
+print(karnataka_cities.values())
