@@ -1,0 +1,7 @@
+print('Perimeter of rectangle.')
+a=int(input('a (in cm):  '))
+b=int(input('b (in cm):  '))
+
+print(2*(a+b))
+
+
