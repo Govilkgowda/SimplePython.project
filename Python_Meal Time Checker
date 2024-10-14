@@ -1,0 +1,17 @@
+print('Meal Time Checker')
+Time=int(input('What Is The Time?\n'))
+
+if Time==8:
+    print('Its Brakfast time')
+    
+elif Time==13:
+    print('Its Lunch time')
+
+elif Time==18:
+    print('Its Snacks time')
+    
+elif Time==20:
+    print('Its Dinner time')
+
+else:
+    print("It's not a meal time.")
