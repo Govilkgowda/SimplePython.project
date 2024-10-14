@@ -1,0 +1,12 @@
+print('Eligible for a library membership')
+
+Age=int(input('Enter your Age: '))
+
+if Age<=18:
+    print(' Student Membership')
+
+elif Age>=60:
+    print('Senior Citizen Membership')
+    
+else:
+    print('Regular Membership')
